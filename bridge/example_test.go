@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func ExamplePrint() {
+func TestMac(t *testing.T) {
 	m := &mac{name: "mac"}
 	w := &windows{name: "windows"}
 	s := &sony{}
@@ -26,9 +26,4 @@ func ExamplePrint() {
 	//mac: this is hp printer
 	//windows: this is sony printer
 	//windows: this is hp printer
-
-}
-
-func TestMac(t *testing.T) {
-
 }
