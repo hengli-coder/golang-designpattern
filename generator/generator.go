@@ -6,6 +6,7 @@ type Generator interface {
 	GenerateHouse() House
 }
 
+// GetGenerator returns a generator based on the kind of house
 func getGenerator(kind string) Generator {
 	switch kind {
 	case "ice":

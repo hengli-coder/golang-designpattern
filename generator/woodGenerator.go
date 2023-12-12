@@ -17,6 +17,7 @@ func (w *wood) SetDoorType() {
 	w.doorType = "wood.door"
 }
 
+// GenerateHouse returns a house based on the wood generator
 func (w *wood) GenerateHouse() House {
 	return House{
 		WindowType: w.windowType,

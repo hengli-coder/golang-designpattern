@@ -20,6 +20,7 @@ func (i *ice) SetDoorType() {
 	i.doorType = "ice.door"
 }
 
+// GenerateHouse returns a house based on the ice generator
 func (i *ice) GenerateHouse() House {
 	return House{
 		WindowType: i.windowType,

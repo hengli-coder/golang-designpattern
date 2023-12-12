@@ -16,6 +16,7 @@ func (h *hp) print() string {
 type sony struct {
 }
 
+// print prints the sony printer
 func (s *sony) print() string {
 	return fmt.Sprintf("this is sony printer")
 }
